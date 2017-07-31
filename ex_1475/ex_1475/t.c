@@ -18,7 +18,7 @@ int main(void) {
 	scanf("%d", &n);
 
 	while (n / MAX_SINGLE_NUMBERIC_RANGE >= 0) {
-
+		
 		int currentNumber = n % MAX_SINGLE_NUMBERIC_RANGE;
 
 
@@ -31,13 +31,11 @@ int main(void) {
 			if (currentNumber == 6 && availNumber[6] >0) {
 				availNumber[6]--;
 			}
-			else if (currentNumber == 6 && availNumber[6] <= 0) {
+			else if(currentNumber ==6 && availNumber[6] <=0) {
 				availNumber[9]--;
-			}
-			else if (currentNumber == 9 && availNumber[9] > 0) {
+			}else if (currentNumber == 9 && availNumber[9] > 0) {
 				availNumber[9]--;
-			}
-			else if (currentNumber == 9 && availNumber[9] <= 0) {
+			}else if (currentNumber == 9 && availNumber[9] <= 0) {
 				availNumber[6]--;
 			}
 
@@ -58,8 +56,8 @@ int main(void) {
 			break;
 		}
 	}
-
+	
 	printf("%d", answer);
-
+	
 	return 0;
 }
