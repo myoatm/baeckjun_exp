@@ -1,45 +1,39 @@
 #pragma warning(disable:4996)
 #include <stdio.h>
 #include <string.h>
+#include <regex>
 
-char arr[1000005];
-/*
+char arr[1000001];
+
 int main(void) {
 
+	/*
 	fgets(arr, sizeof(arr), stdin);
 	
 	int length = strlen(arr);
 	arr[length - 1] = '\0';
-
-	int counter=0;
-	char prev = ' ';
-
-	for (int i = 0; i < length-1; i++) {
+	
+	for (int i = 0; i < length; i++) {
 		
-		if (arr[i] != ' ' && prev != arr[i] && i > length-2) {
-			counter++;
-		}
-		prev = arr[i];
 	}
+	*/
+	char c;
 
-	if (length == 1) {
-		counter = 0;
+	while ((c = getchar()) != '\n' || '\0'){
+
 	}
-	else if (counter == 0) {
-		counter = 1;
-	}
-
-	printf("%d\n", counter);
-
+	
 }
-*/
 
+/*
 int main(void) {
 
 	fgets(arr, sizeof(arr), stdin);
 
 	int length = strlen(arr);
 	arr[length - 1] = '\0';
+	
+
 	
 	int counter = 0;
 	int continueCharCount = 0;
@@ -67,3 +61,6 @@ int main(void) {
 
 	return 0;
 }
+
+
+*/
