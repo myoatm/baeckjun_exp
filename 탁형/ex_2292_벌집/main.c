@@ -1,5 +1,4 @@
-#pragma warning(disable:4996)
-#include <stdio.h>
+
 
 /*
 1
@@ -18,6 +17,10 @@
 58 : 5
 65 : 6
 */
+
+
+#include <stdio.h>
+#pragma warning(disable:4996)
 
 int main(void) {
 
@@ -48,3 +51,6 @@ int main(void) {
 
 	return 0;
 }
+
+
+
