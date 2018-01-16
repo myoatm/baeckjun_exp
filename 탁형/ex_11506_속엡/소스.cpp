@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main(void) {
+	printf("%c%c%c%c%c%c", 0xEF, 0xBF, 0xBD, 0xEF, 0xBF, 0xBD);
+	return 0;
+}
